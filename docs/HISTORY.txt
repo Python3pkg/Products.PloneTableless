@@ -1,6 +1,19 @@
 Changelog
 =========
 
+2.0b1 (2010-09-17)
+------------------
+
+* Plone 4 compatibility
+
+create new browser layer depended on plonetheme.classic. All theme based on the PloneTableless must inherit
+this browserlayer.
+
+adjust main_template.pt
+adjust portlet_prefs.pt
+add viewlet.xml based on classic theme
+
+
 1.4 - Released
 --------------
 

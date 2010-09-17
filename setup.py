@@ -16,7 +16,7 @@ setup(name='Products.PloneTableless',
         ],
       keywords='plone theme tableless',
       author='Raptus AG (Simon Kaeser)',
-      author_email='skaeser@raptus.com',
+      author_email='dev@raptus.com',
       url='http://plone.org/products/plone-tableless',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
@@ -25,6 +25,7 @@ setup(name='Products.PloneTableless',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plonetheme.classic'
           # -*- Extra requirements: -*-
       ],
       entry_points="""

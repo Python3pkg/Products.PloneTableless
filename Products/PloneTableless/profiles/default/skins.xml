@@ -4,7 +4,7 @@
  <object name="plone_tableless"
          meta_type="Filesystem Directory View"
          directory="Products.PloneTableless:skins/plone_tableless"/>
- <skin-path name="Plone Tableless" based-on="Plone Default">
+ <skin-path name="Plone Tableless" based-on="Plone Classic Theme">
   <layer name="plone_tableless"
          insert-after="custom"/>
  </skin-path>
