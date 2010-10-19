@@ -193,6 +193,7 @@
     
               <div id="viewlet-below-content" tal:content="structure provider:plone.belowcontent" />
             </div>
+            <div id="clear-space-after-portal-wrapper" class="visualClear"><!-- --></div>
           </div>
         </div>
         <tal:comment replace="nothing"> End of main content block </tal:comment>
@@ -202,9 +203,7 @@
         <tal:comment replace="nothing"> end column wrapper </tal:comment>
   
         <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
-  
-        <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
-  
+    
         <metal:block i18n:domain="plone" tal:condition="not:ajax_load">
   
           <div tal:replace="structure provider:plone.portalfooter" />
