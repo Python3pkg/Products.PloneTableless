@@ -1,20 +1,21 @@
 Changelog
 =========
 
-2.0b2 (2010-10-19)
+2.0b2 (2010-10-20)
 ------------------
-add div-tag clear space after portal wrapper
+
+* add div-tag clear space after portal wrapper
 
 2.0b1 (2010-09-17)
 ------------------
 
 * Plone 4 compatibility
-
-create new browser layer depended on plonetheme.classic.
-
-adjust main_template.pt
-adjust portlet_prefs.pt
-add viewlet.xml based on classic theme
+  
+  create new browser layer depended on plonetheme.classic.
+  
+  adjust main_template.pt
+  adjust portlet_prefs.pt
+  add viewlet.xml based on classic theme
 
 
 1.4 - Released
