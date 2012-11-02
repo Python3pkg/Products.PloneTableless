@@ -6,7 +6,7 @@ version = '2.0b2'
 setup(name='Products.PloneTableless',
       version=version,
       description="Plone Tableless provides a completly tableless version of the Plone Default theme",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -17,7 +17,7 @@ setup(name='Products.PloneTableless',
       keywords='plone theme tableless',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/Products.PloneTableless',
+      url='https://github.com/Raptus/Products.PloneTableless',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
