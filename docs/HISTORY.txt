@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0b3 (unreleased)
+------------------
+
+* Switched DOCTYPE to HTML5
+* Added sl and sr CSS classes to #visual-portal-wrapper
+
 2.0b2 (2010-10-20)
 ------------------
 
