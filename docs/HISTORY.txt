@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.0b4 (unreleased)
+2.0b4 (2013-09-25)
 ------------------
 
 * Merged changes in main_template from Plone 4.3.2
